@@ -3128,10 +3128,12 @@ input, select, textarea {
 				margin: 0 0 1.5em 0;
 			}
 
+			/* added */
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					min-width: 300px;
 				}
 
 		@media screen and (max-width: 1280px) {
