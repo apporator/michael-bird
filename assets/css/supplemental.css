@@ -1,0 +1,149 @@
+.prof-pic,
+.logo,
+.img {
+    height: 300px;
+    border-radius: 1.2rem;
+    margin-bottom: 0px;
+    
+}
+
+.prof-pic {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-writeup-wrapper a {
+    border: none;
+    box-sizing: border-box;
+}
+
+.project-img:hover {
+    border: 1px dotted;
+    box-sizing: border-box;
+}
+
+.project-des {
+    text-align: left;
+    width: 100%;
+}
+
+.project-pane {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-title {
+    padding-top: 15px;
+}
+
+.project-icon-bar {
+    display: flex;
+    gap: 10%;
+}
+
+.code-link-wrap {
+    background-color: #f8f9fa;
+    border: none;
+    width: 30%;
+    display: flex;
+    gap: 5%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2%;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.code-link-wrap:hover {
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2);
+}
+
+.project-icon-bar i {
+    padding-right: 2%;
+}
+
+.language-icon {
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    grid-gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.style1 {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #3C8FC6; */
+    /* flex-direction: column; */
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.style1 p {
+    color: #636363;
+    font-size: 1.25em;
+    margin: 0px;
+}
+
+.dev-name {
+    /* font-size: medium; */
+}
+
+#linkedin-button {
+    background-color: #1B78C0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    z-index: 10;
+}
+
+#linkedin-button:hover {
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2);
+    background-color: #1B78C0;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul div {
+    flex-grow: 1;
+}
+
+#nav a {
+    margin-left: auto;
+    padding: 0 1.25em;
+}
+
+.nav-left, .nav-right {
+    width: 25%;
+}
+
+.nav-mid {
+    width: 50%;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#linkedin-button {
+    margin: 0;
+}
