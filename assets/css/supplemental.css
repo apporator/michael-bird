@@ -43,6 +43,10 @@
     padding-top: 15px;
 }
 
+.project-title a:hover {
+    border-bottom: dotted 1px;
+}
+
 .project-icon-bar {
     display: flex;
     gap: 10%;
