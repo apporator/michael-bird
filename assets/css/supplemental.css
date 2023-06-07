@@ -151,3 +151,74 @@
 #linkedin-button {
     margin: 0;
 }
+
+.modal-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    display: none;
+}
+
+.email-modal {
+    padding: 20px;
+    /* background-color: #f8f9fa; */
+    border-radius: 8px;
+    color: black;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    
+    background-color: #FFFFFF;
+}
+
+.modal-wrapper label {
+    color: #636363;
+}
+
+.email-modal input, textarea, button {
+    border: 0.5px solid gray;
+    color: black;
+    margin-top: 10px;
+}
+
+.email-modal button {
+    color: rgb(83, 81, 81);
+    /* background-color: #f7f7f7; */
+    /* border: none; */
+    /* box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2); */
+}
+
+.email-modal textarea {
+    resize: vertical;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+#close-modal-button {
+    background-color: #e7625f;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2);
+    width: 100%;
+}
+
+#email-button {
+    background-color: #1B78C0;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, .2);
+}
+
